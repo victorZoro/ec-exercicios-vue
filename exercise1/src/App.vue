@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import Calculator from '@/components/Calculator.vue';
 </script>
 
 <template>
-  <HelloWorld></HelloWorld>
+    <div class="numbers">
+        <Calculator></Calculator>
+    </div>
 </template>
 
 <style scoped>

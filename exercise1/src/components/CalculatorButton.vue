@@ -3,7 +3,7 @@ const props = defineProps(['text']);
 </script>
 
 <template>
-    <button class="btn">{{ text }}</button>
+    <button class="btn">{{ props.text }}</button>
 </template>
 
 <style scoped>

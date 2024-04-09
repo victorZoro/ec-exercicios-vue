@@ -1,11 +1,9 @@
 <script setup>
-import Calculator from '@/components/Calculator.vue';
+    import CalculatorComponent from '@/components/CalculatorComponent.vue';
 </script>
 
 <template>
-    <div class="numbers">
-        <Calculator></Calculator>
-    </div>
+    <CalculatorComponent></CalculatorComponent>
 </template>
 
 <style scoped>
